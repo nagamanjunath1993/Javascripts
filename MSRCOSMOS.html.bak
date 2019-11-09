@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="bootstrap.css">
+  <script src="jquery-3.3.1.js"></script>
+  <script src="popper.js"></script>
+  <script src="bootstrap.js"></script>
+  <title>Document</title>
+  <style type="text/css">
+  body
+  {
+  font-family:'Tahoma';
+  font-size:10px;
+  }
+  #p1
+  {
+  border:2px solid #a1a1a1;
+  padding-left:25px;
+  background-color:green;
+  color:white;
+  width:300px;
+  border-radius:5px 45px 5px 45px;
+  }
+  p.solid {border-style: solid;}
+  p {
+
+
+  border: 10px solid green;
+}
+.div1 {
+  width: 300px;
+  height: 100px;
+  border: 1px solid green;
+}
+  </style>
+ </head>
+ <body>
+ 
+  <div class ="container">
+  <table class="table">
+  <thead class="thread-dark">
+  <thead>
+  
+  <tr class="table-primary">
+ 
+
+  <th>Id</th>
+  <th>Name</th>
+  <th>Email</th>
+  <th>class</th>
+  <th>Year</th>
+  <th>City</th>
+  <th>Country</th>
+  <th></th>
+  <th></th>
+  </tr>
+  </thead>
+  </thead>
+  <tbody>
+  <tr>
+  <td>1</td>
+  <td>Naga Manjunath</td>
+  <td>Nagamanjunath1993@gmail.com</td>
+  <td>B.Tech</td>
+  <td>2017</td>
+  <td>Hyderabad</td>
+  <td>India</td>
+  <td><button type="Edit"class="btn btn-primary">Edit</button></td>
+  <td><button type="Delete"class="btn btn-primary">Delete</button></td>
+  </tr>
+  <tr>
+  <td>2</td>
+  <td>Reddysai</td>
+  <td>sai@gmail.com</td>
+  <td>B.Tech</td>
+  <td>2017</td>
+  <td>Kadapa</td>
+  <td>India</td>
+  <td><button type="Edit"class="btn btn-primary">Edit</button></td>
+  <td><button type="Delete"class="btn btn-primary">Delete</button></td>
+  </tr>
+  <tr>
+  <td>3</td>
+  <td>Mammatha</td>
+  <td>mammatha@gmail.com</td>
+  <td>B.Tech</td>
+  <td>2017</td>
+  <td>Anantapur</td>
+  <td>India</td>
+  <td><button type="Edit"class="btn btn-primary">Edit</button></td>
+  <td><button type="Delete"class="btn btn-primary">Delete</button></td></div>
+ 
+  </tr>
+ </div>
+  
+  
+  </tbody>
+  </table>
+  </div>
+  <div class="container-fluid">
+  <div class="row">
+  <div class="col-10">
+  <form>
+<table>
+  <tr>
+ <td>StudentId</td>
+  <td><input type="text" id="StudentId" placeholder="StudentId"></td>
+</tr>
+<tr>
+<td>Country</td>
+  <td><input type="text"  id="Country" placeholder="Country"></td>
+</tr>
+	<tr>
+	<td>Email</td>
+	<td><input type="text"  id="Email" placeholder="Email"></td>
+	</tr>
+	<tr>
+	<td>Class</td>
+	<td><input type="email"  id="Class" placeholder="class"></td>	
+	</tr>
+<tr>
+ <td>EnrollmentYear</td>
+  <td><input type="email"  id="Year" placeholder="Year"></td>
+</tr>
+<tr>
+ <td>city</td>
+  <td><input type="email" id="City" placeholder="city"></td>
+</tr>
+<tr>
+<td>Country</td>
+  <td><input type="text"  id="Country" placeholder="Country"></td>
+</tr>
+</table>
+  <button type="save"class="btn btn-primary">save</button>
+  <button type="clear"class="btn btn-primary">clear</button>
+  </form>
+ 
+  </div>
+  </div>
+ </body>
+</html>
